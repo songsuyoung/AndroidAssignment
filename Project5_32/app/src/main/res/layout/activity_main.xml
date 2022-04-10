@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*">
+
+    <EditText
+        android:id="@+id/Edit1"></EditText>
+
+
+    <EditText
+        android:id="@+id/Edit2"></EditText>
+
+    <TableRow>
+
+        <Button
+            android:text="0"
+            android:id="@+id/btn0"/>
+        <Button
+            android:text="1"
+            android:id="@+id/btn1"/>
+        <Button
+            android:text="2"
+            android:id="@+id/btn2"/>
+        <Button
+            android:text="3"
+            android:id="@+id/btn3"/>
+        <Button
+            android:text="4"
+            android:id="@+id/btn4"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="5"
+            android:id="@+id/btn5"/>
+        <Button
+            android:text="6"
+            android:id="@+id/btn6"/>
+        <Button
+            android:text="7"
+            android:id="@+id/btn7"/>
+        <Button
+            android:text="8"
+            android:id="@+id/btn8"/>
+        <Button
+            android:text="9"
+            android:id="@+id/btn9"/>
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:background="#FFFFFF"
+            android:layout_weight="5"
+            android:id="@+id/BtnAdd"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="더하기"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:background="#FFFFFF"
+            android:layout_weight="5"
+            android:id="@+id/BtnSub"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="빼기"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:background="#FFFFFF"
+            android:layout_weight="5"
+            android:id="@+id/BtnMul"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="곱하기"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:background="#FFFFFF"
+            android:layout_weight="5"
+            android:id="@+id/BtnDiv"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="나누기"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/TextResult"
+            android:layout_margin="5dp"
+            android:layout_span="5"
+            android:text="계산 결과 : "
+            android:textColor="#FF0000"
+            android:textSize="35dp"/>
+    </TableRow>
+</TableLayout>
